@@ -25,3 +25,16 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+
+**/ios/**
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/web/**
+**/macos/**
+**/linux/**
+**/windows/**
+**/build/**
+
+**/.idea
