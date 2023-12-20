@@ -1,3 +1,4 @@
+import 'package:f03_toktik/config/helpers/human_format.dart';
 import 'package:f03_toktik/domain/entities/video_post.dart';
 import 'package:flutter/material.dart';
 
@@ -41,7 +42,7 @@ class _CustomIconButton extends StatelessWidget {
       children: [
         IconButton(
             onPressed: () {}, icon: Icon(iconData, color: color, size: 40)),
-        Text('$value'),
+        Text(HumanFormats.humanReadableNumber(value.toDouble())),
       ],
     );
   }
