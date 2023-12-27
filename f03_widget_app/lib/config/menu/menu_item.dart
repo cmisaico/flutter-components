@@ -25,4 +25,16 @@ const appMenuItems = <MenuItem>[
       icon: Icons.smart_button_outlined,
       link: "/cards",
       subTitle: "subTitle"),
+  MenuItem(
+    title: 'ProgressIndicators',
+    subTitle: 'Geerales y controlos',
+    link: '/progress',
+    icon: Icons.refresh,
+  ),
+  MenuItem(
+    title: 'Snackbars',
+    subTitle: 'Geerales y controlos',
+    link: '/snackbars',
+    icon: Icons.info_outline,
+  )
 ];
