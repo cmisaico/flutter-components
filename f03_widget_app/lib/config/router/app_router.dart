@@ -22,5 +22,9 @@ final appRouter = GoRouter(
       path: '/progress',
       builder: (context, state) => const ProgressScreen(),
     ),
+    GoRoute(
+      path: '/counter-river',
+      builder: (context, state) => const CounterScreen(),
+    ),
   ],
 );

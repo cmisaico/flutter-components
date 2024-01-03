@@ -36,5 +36,11 @@ const appMenuItems = <MenuItem>[
     subTitle: 'Geerales y controlos',
     link: '/snackbars',
     icon: Icons.info_outline,
+  ),
+  MenuItem(
+    title: 'Riverpood counter',
+    subTitle: 'Introuddcion a riverpod',
+    link: '/counter-river',
+    icon: Icons.info_outline,
   )
 ];
